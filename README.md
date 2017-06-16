@@ -7,9 +7,8 @@
     * [Expose注解](#expose注解)
 
 #### 添加引用
-
-    <p><code>build.gradle的dependencies中添加compile 'com.google.code.gson:gson:2.7'，
-    也可以引用其他的版本</p></code>
+    build.gradle的dependencies中添加compile 'com.google.code.gson:gson:2.7'，
+    也可以引用其他的版本
 
 ```
 dependencies {
@@ -18,8 +17,8 @@ dependencies {
 ```
 
 #### gson的使用
-    <p><code>首先谈谈我对gson的理解，实体类Model，json字符串jsonStr。
-    转换关系可以有：</p></code>
+    首先谈谈我对gson的理解，实体类Model，json字符串jsonStr。
+    转换关系可以有：
 ```
     /**
      * 实体类转换成json字符串
@@ -52,9 +51,9 @@ dependencies {
     }
 ```
 
-    <p><code>常用的转换有这三种，
+    常用的转换有这三种，
     实体类转换成Json字符串，Json字符串转换成实体类，Json字符串转换成实体类集合
-    当然类可以相互嵌套</p></code>
+    当然类可以相互嵌套
 ```
 public class ProductResultModel {
     private int code;//返回信息code码

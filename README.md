@@ -3,8 +3,8 @@
 * [添加引用](#添加引用)
 * [gson的使用](#gson的使用)
 * [其他](#其他)
-    * [SerializedName注解](#SerializedName注解)
-    * [Expose注解](#Expose注解)
+    * [SerializedName注解](#serializedname注解)
+    * [Expose注解](#expose注解)
 
 #### 添加引用
 
